@@ -1,0 +1,94 @@
+%dw 2.0
+output application/json
+---
+{
+  "Username": {
+    "S": vars.NewPasswords.Username
+  },
+  "Ansewr1": {
+    "S": vars.NewPasswords.Answer1
+  },
+  "Ansewr2": {
+    "S": vars.NewPasswords.Answer2
+  },
+  "Ansewr3": {
+    "S": vars.NewPasswords.Answer3
+  },
+  "Password1": {
+    "S": vars.NewPasswords.Password1
+  },
+  "Password3": {
+    "N": vars.NewPasswords.Password3
+  },
+  "Question1": {
+    "S": vars.NewPasswords.Question1
+  },
+  "Question2": {
+    "S": vars.NewPasswords.Question2
+  },
+  "Question3": {
+    "S": vars.NewPasswords.Question3
+  },
+  "Dateofbirth":{
+  	"S": payload.Dateofbirth
+  	},
+  "Email": {
+  	"S": payload.Email
+  	},
+     "FullName": {
+     	"S": payload.FullName
+     	}
+     	
+     	
+
+}
+
+
+{
+  "username": {
+    "S": vars.NewPasswords.Username
+  },
+  "Ansewr1": {
+    "S": vars.NewPasswords.Ansewr1
+  },
+  "Ansewr2": {
+    "S": vars.NewPasswords.Ansewr2
+  },
+  "Ansewr3": {
+    "S": vars.NewPasswords.Ansewr3
+  },
+  "Dateofbirth": {
+    "S": payload.Dateofbirth
+  },
+  "Email": {
+    "S": payload.Email
+  },
+  "FullName": {
+    "S": payload.FullName
+  },
+  "Password1": {
+    "S": vars.NewPasswords.Password1
+  },
+  "Password3": {
+    "N": vars.NewPasswords.Password3
+  },
+  "PhoneNo": {
+    "S": payload.PhoneNo
+  },
+  "Question1": {
+    "S": vars.NewPasswords.Question1
+  },
+  "Question2": {
+    "S": vars.NewPasswords.Question2
+  },
+  "Question3": {
+    "S": vars.NewPasswords.Question3
+  }
+}
+
+
+
+
+mongodb+srv://battulachrao:9KURgaeltNA07LZL@cluster0.2ngbnk9.mongodb.net/Cluster0
+
+mongodb+srv://battulachrao:3ybaYylpnxpwquBF@cluster0.2ngbnk9.mongodb.net/Authorization
