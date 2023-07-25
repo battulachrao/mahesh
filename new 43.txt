@@ -80,9 +80,6 @@ output application/json
   },
   "Question2": {
     "S": vars.NewPasswords.Question2
-  },
-  "Question3": {
-    "S": vars.NewPasswords.Question3
   }
 }
 
@@ -91,4 +88,8 @@ output application/json
 
 mongodb+srv://battulachrao:9KURgaeltNA07LZL@cluster0.2ngbnk9.mongodb.net/Cluster0
 
-mongodb+srv://battulachrao:3ybaYylpnxpwquBF@cluster0.2ngbnk9.mongodb.net/Authorization
+mongodb+srv://battulachrao:3ybaYylpnxpwquBF@cluster0.2ngbnk9.mongodb.net/
+
+
+
+Deleted new lines
